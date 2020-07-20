@@ -25,4 +25,14 @@
   color: blue;
 }
 
+#header_top .list-inline li a {
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+#header_top button {
+  line-height: normal;
+}
+
 /* RESPONSIVE */
