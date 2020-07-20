@@ -11,6 +11,17 @@
   margin-top: 70px;
 }
 
+.clear_box::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pos_relative {
+  position: relative;
+}
+
+
 /* HEADER */
 /* TOP */
 
@@ -33,6 +44,9 @@
 
 #header_top button {
   line-height: normal;
+  position: absolute;
+  right: 0;
+  top: 20px;
 }
 
 /* RESPONSIVE */
