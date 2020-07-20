@@ -14,7 +14,7 @@
 /* HEADER */
 /* TOP */
 
-.header_top {
+#header_top {
   position: fixed;
   width: 100%;
   top: 0;
@@ -22,7 +22,7 @@
   z-index: 1;
   height: 70px;
   line-height: 70px;
-  color: #fff;
+  color: blue;
 }
 
 /* RESPONSIVE */
