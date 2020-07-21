@@ -258,6 +258,10 @@ input[type=password], select {
   background-color: #F0F0F0;
 }
 
+#main_partnership a > i {
+  padding-left: 5px;
+}
+
 
 
 /* RESPONSIVE */
