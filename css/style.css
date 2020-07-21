@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* colors */
 .font_color_darkblue {
   color: #072050;
 }
@@ -15,9 +16,14 @@ body {
   color: #fff;
 }
 
+.font_color_lightgrey {
+  color: #B0B0B0;
+}
+
 .font_weight_700 {
   font-weight: 700;
 }
+/* size */
 
 .font_size_big {
   font-size: 6rem;
@@ -39,6 +45,10 @@ body {
 
 .txt_bold {
   font-weight: bold;
+}
+
+.txt_uppercase {
+  text-transform: uppercase;
 }
 
 /* WRAPPERS */
@@ -110,6 +120,12 @@ body {
 
 .img_log {
   max-width: 150px;
+}
+
+.img_partnership {
+  max-width: 150px;
+  max-height: 100px;
+  vertical-align: middle;
 }
 
 /* GRADIENT */
@@ -214,7 +230,14 @@ input[type=password], select {
   color: #fff;
 }
 
+.btn_google {
+  border: 1px solid #0062ff;
+  color: #0062ff;
+}
 
+.btn_google:hover {
+  color: #000;
+}
 
 .google_icon i {
   position: absolute;
@@ -223,5 +246,13 @@ input[type=password], select {
   font-size: 1.8rem;
   color: #0062ff;
 }
+
+/* MAIN */
+/* MAIN PARTNERSHIP */
+
+#main_partnership {
+  background-color: #F0F0F0;
+}
+
 
 /* RESPONSIVE */
