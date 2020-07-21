@@ -106,11 +106,11 @@ body {
   top: 20px;
 }
 
-#header_top .btn_blue a {
+.btn_blue a {
   color: #0062ff;
 }
 
-#header_top .btn_blue a:hover {
+.btn_blue a:hover {
   background-color: #0062ff;
   color: #fff;
 }
