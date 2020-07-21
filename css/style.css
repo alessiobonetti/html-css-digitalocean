@@ -11,8 +11,16 @@ body {
   color: #0062ff;
 }
 
+.font_color_white {
+  color: #fff;
+}
+
 .font_weight_700 {
   font-weight: 700;
+}
+
+.font_size_big {
+  font-size: 6rem;
 }
 
 /* TEXT */
@@ -46,9 +54,17 @@ body {
   margin-top: 70px;
 }
 
+.margin_top_15 {
+  margin-top: 15px;
+}
+
 /* PADDINGS */
 .padding_5px {
   padding: 5px;
+}
+
+.padding_10px {
+  padding: 10px;
 }
 
 .padding_bottom_20 {
@@ -157,7 +173,13 @@ body {
   border-radius: 5px;
   background-color: #fff;
 }
+#header_jumbotron {
+  padding: 60px 0;
+}
 
+#header_jumbotron  a {
+  text-decoration: none;
+}
 
 #header_jumbotron p > a {
   text-decoration: underline;
@@ -167,7 +189,6 @@ body {
 
 /* form */
 
-
 input[type=email], select {
   width: 100%;
   padding: 12px 20px;
@@ -175,6 +196,7 @@ input[type=email], select {
   display: block;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-shadow: 1px 2px #888888;
 }
 
 input[type=password], select {
@@ -184,6 +206,7 @@ input[type=password], select {
   display: block;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-shadow: 1px 2px #888888;
 }
 
 .btn_account {
@@ -191,5 +214,14 @@ input[type=password], select {
   color: #fff;
 }
 
+
+
+.google_icon i {
+  position: absolute;
+  padding: 10px;
+  min-width: 40px;
+  font-size: 1.8rem;
+  color: #0062ff;
+}
 
 /* RESPONSIVE */
