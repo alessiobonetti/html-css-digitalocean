@@ -7,6 +7,10 @@ body {
   color: #072050;
 }
 
+.font_color_lightblue {
+  color: #0062ff;
+}
+
 .font_weight_700 {
   font-weight: 700;
 }
@@ -42,6 +46,11 @@ body {
   margin-top: 70px;
 }
 
+/* PADDINGS */
+.padding_5px {
+  padding: 5px;
+}
+
 /* BUTTONS */
 
 .btn_blue {
@@ -73,6 +82,13 @@ body {
 
 .img_log {
   max-width: 150px;
+}
+
+/* GRADIENT */
+
+.gradient_blue {
+  background: rgb(0,38,160);
+  background: linear-gradient(0deg, rgba(0,38,160,1) 47%, rgba(66,147,238,1) 100%);
 }
 
 
@@ -120,5 +136,22 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+/* JUMBOTRON */
+
+.form_wrapper {
+  max-height: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#header_jumbotron p > a {
+  text-decoration: underline;
+  color: #0062ff;
+  font-weight: bold;
+}
+
+/* form */
+
 
 /* RESPONSIVE */
