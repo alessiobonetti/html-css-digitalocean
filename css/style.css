@@ -258,11 +258,38 @@ input[type=password], select {
   background-color: #F0F0F0;
 }
 
+#main_partnership a {
+  text-decoration: none;
+}
+
+#main_partnership a:hover {
+  cursor: pointer;
+}
+
 #main_partnership a > i {
   padding-left: 5px;
 }
 
+/* MAIN DEPLOY */
 
+.deploy_left_list {
+  margin: auto;
+}
+
+.deploy_left_list li {
+  list-style: none;
+  padding-bottom: 25px;
+  border-left: 2px solid #B0B0B0;
+}
+
+.deploy_left_list li a {
+  height: 100%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #B0B0B0;
+  padding-left: 15px;
+}
 
 /* RESPONSIVE */
 
