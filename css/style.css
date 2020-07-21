@@ -1,15 +1,55 @@
+/* FONTS */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font_color_darkblue {
+  color: #072050;
+}
+
+/* TEXT */
+
 .txt_center {
   text-align: center;
 }
+
+.txt_right {
+  text-align: right;
+}
+
+.txt_left {
+  text-align: left;
+}
+
+.txt_bold {
+  font-weight: bold;
+}
+
+/* WRAPPERS */
 
 .container_wrapper {
   max-width: 600px;
   margin: auto;
 }
 
+/* MARGINS */
+
 .margin_top_70 {
   margin-top: 70px;
 }
+
+/* BUTTONS */
+
+.btn_blue {
+  background-color: transparent;
+  color: #0062ff ;
+  border: 1px solid #0062ff;
+  border-radius: 5px;
+  padding: 15px;
+  line-height: normal;
+}
+
+/* UTILITIES */
 
 .clear_box::after {
   content: "";
@@ -19,6 +59,12 @@
 
 .pos_relative {
   position: relative;
+}
+
+/* IMG */
+
+.img_log {
+  max-width: 150px;
 }
 
 
@@ -37,12 +83,20 @@
 }
 
 #header_top .list-inline li a {
+  display: inline-block;
   width: 100%;
   height: 100%;
-  display: inline-block;
   font-size: 15px;
   text-decoration: none;
   padding-left: 8px;
+  padding-right: 2px;
+  color: #072050;
+}
+
+
+#header_top .list-inline li a:hover {
+  cursor: pointer;
+  color: #0062ff;
 }
 
 #header_top button {
@@ -50,6 +104,15 @@
   position: absolute;
   right: 0;
   top: 20px;
+}
+
+#header_top .btn_blue a {
+  color: #0062ff;
+}
+
+#header_top .btn_blue a:hover {
+  background-color: #0062ff;
+  color: #fff;
 }
 
 /* RESPONSIVE */
