@@ -85,6 +85,10 @@ body {
   padding-bottom: 20px;
 }
 
+.padding_top_20 {
+  padding-top: 20px;
+}
+
 /* BUTTONS */
 
 .btn_blue {
@@ -159,6 +163,10 @@ body {
 
 /* NAVIGATION BOX ARROW */
 
+.navigation_box {
+  margin: auto;
+}
+
 .navigation_box img {
   max-width: 60%;
 }
@@ -183,6 +191,22 @@ body {
   font-weight: 900;
   font-size: 60px;
   color:#072050;
+}
+
+/* LIST CYRCLE */
+
+.list_cyrcle li {
+  list-style: none;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #0062ff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.list_cyrcle li:first-child{
+  background-color: #0062ff;
 }
 
 
