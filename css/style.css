@@ -389,6 +389,10 @@ input[type=password], select {
   padding: 100px 30px;
 }
 
+.page_shower .list_cyrcle {
+  padding-left: 0;
+}
+
 /* MAIN GET STARTED */
 #main_getstarted h2 {
   color: #fff;
@@ -414,9 +418,13 @@ footer {
   background-color: #031C4E;
 }
 
-footer .list-inline a > i {
+footer .footer_list_social a > i {
   font-size: 2.5rem;
   color: #B0B0B0;
+}
+
+footer .footer_list_social a > i:hover {
+  color: #fff;
 }
 
 .footer_list li {
