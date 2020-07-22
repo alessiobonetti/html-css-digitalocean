@@ -369,6 +369,21 @@ input[type=password], select {
   border-bottom: 1px solid #fff;
   padding-top: 10px;
 }
+
+/* MAIN TEAMS */
+
+#main_teams .navigation_box {
+  margin-top: 30px;
+  height: 400px;
+  padding: 30px 15px;
+}
+.rockerbox {
+  height: 100%;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 100px 30px;
+}
 /* RESPONSIVE */
 
 @media screen and (max-width:991px) {
