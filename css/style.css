@@ -124,6 +124,12 @@ body {
   display: inline-block;
 }
 
+/* BACKGROUND COLORS */
+.bckg_color_lightgrey {
+  background-color: #F0F0F0;
+}
+
+
 /* IMG */
 
 .img_log {
@@ -136,11 +142,47 @@ body {
   vertical-align: middle;
 }
 
+/* H2 */
+
+.h2_section_title {
+  color: #072050;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
 /* GRADIENT */
 
 .gradient_blue {
   background: rgb(0,38,160);
   background: linear-gradient(0deg, rgba(0,38,160,1) 47%, rgba(66,147,238,1) 100%);
+}
+
+/* NAVIGATION BOX ARROW */
+
+.navigation_box img {
+  max-width: 60%;
+}
+
+.navigation_box::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f104";
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 60px;
+  color:#B0B0B0;
+}
+
+.navigation_box::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+  display: inline-block;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 60px;
+  color:#072050;
 }
 
 
@@ -258,9 +300,6 @@ input[type=password], select {
 /* MAIN */
 /* MAIN PARTNERSHIP */
 
-#main_partnership {
-  background-color: #F0F0F0;
-}
 
 #main_partnership a {
   text-decoration: none;
@@ -305,6 +344,10 @@ input[type=password], select {
     max-width: 115px;
     max-height: 60px;
   }
+
+  .navigation_box img {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -314,5 +357,12 @@ input[type=password], select {
   #main_partnership li img{
     max-width: 130px;
     max-height: 80px;
+  }
+
+  .navigation_box::after {
+    content: none;
+  }
+  .navigation_box::before {
+    content: none;
   }
 }
