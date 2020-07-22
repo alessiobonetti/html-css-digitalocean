@@ -358,6 +358,17 @@ input[type=password], select {
   padding-left: 15px;
 }
 
+/* MAIN REGIONS */
+
+#main_regions .h2_section_title {
+  color: #fff;
+}
+
+.region_list li {
+  list-style: none;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+}
 /* RESPONSIVE */
 
 @media screen and (max-width:991px) {
