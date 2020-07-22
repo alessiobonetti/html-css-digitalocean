@@ -169,6 +169,7 @@ body {
 
 .navigation_box {
   margin: auto;
+  display: inline-block;
 }
 
 .navigation_box img {
@@ -457,6 +458,16 @@ footer .footer_list_social a > i:hover {
   .navigation_box img {
     max-width: 80%;
   }
+
+  #main_teams .navigation_box {
+    max-width: 80%;
+    display: inline-block;
+
+  }
+
+  #main_teams .rockerbox {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width:768px) {
@@ -472,6 +483,13 @@ footer .footer_list_social a > i:hover {
     content: none;
   }
   .navigation_box::before {
+    content: none;
+  }
+
+  #main_teams .navigation_box::after {
+    content: none;
+  }
+  #main_teams .navigation_box::before {
     content: none;
   }
 }
