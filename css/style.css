@@ -89,6 +89,10 @@ body {
   padding-top: 20px;
 }
 
+.padding_top_70 {
+  padding-top: 70px;
+}
+
 /* BUTTONS */
 
 .btn_blue {
@@ -384,6 +388,28 @@ input[type=password], select {
   border-radius: 5px;
   padding: 100px 30px;
 }
+
+/* MAIN GET STARTED */
+#main_getstarted h2 {
+  color: #fff;
+}
+
+#main_getstarted .btn_large {
+  background-color: #fff;
+  padding: 18px 25px;
+}
+
+#main_getstarted a {
+  color: #0062ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container_wrapper {
+  height: 150px;
+}
+
+
 /* RESPONSIVE */
 
 @media screen and (max-width:991px) {
