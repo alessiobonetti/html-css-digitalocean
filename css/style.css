@@ -409,6 +409,31 @@ input[type=password], select {
   height: 150px;
 }
 
+/* FOOTER */
+footer {
+  background-color: #031C4E;
+}
+
+footer .list-inline a > i {
+  font-size: 2.5rem;
+  color: #B0B0B0;
+}
+
+.footer_list li {
+  list-style: none;
+  text-align: left;
+  padding: 2px;
+}
+
+.footer_list li a {
+  text-decoration: none;
+  color: #B0B0B0;
+}
+
+.footer_list li a:hover {
+  color: #fff;
+  cursor: pointer;
+}
 
 /* RESPONSIVE */
 
