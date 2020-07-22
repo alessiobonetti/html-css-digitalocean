@@ -68,6 +68,10 @@ body {
   margin-top: 15px;
 }
 
+.margin_bottom_20px {
+  margin-bottom: 20px;
+}
+
 /* PADDINGS */
 .padding_5px {
   padding: 5px;
